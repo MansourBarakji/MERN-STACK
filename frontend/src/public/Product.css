@@ -1,0 +1,119 @@
+.product-page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 20px;
+}
+
+.product-top-section {
+  display: flex;
+  gap: 2rem;
+}
+
+.product-image-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-detail-image {
+  width: 100%;
+  max-width: 400px;
+  max-height: 400px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.add-to-cart-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.product-details-section {
+  flex: 1;
+}
+
+.add-review {
+  flex: 1;
+  margin-right: 50px;
+}
+
+.add-review h2 {
+  margin-left: 100px;
+}
+
+
+.product-info {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+h1 {
+  display: flex;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  
+}
+
+.product-price,
+.product-category,
+.product-quantity {
+  font-size: 1.1rem;
+  margin-top: 5px;
+}
+
+
+
+.add-review form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.add-review textarea {
+  resize: vertical;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.submit-review-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reviews-section {
+  margin-top: 30px;
+}
+
+.review {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.delete-button {
+  background-color: #ff4757;
+}
+
+.delete-button:hover {
+  background-color: #ff6b81;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
