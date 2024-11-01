@@ -2,8 +2,8 @@ MERN Stack Project
 This project is a full-stack MERN (MongoDB, Express, React, Node.js) application. Follow these instructions to set up and run both the backend and frontend servers locally.
 
 1-)Clone the Repository
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/MansourBarakji/MERN-STACK.git
+cd MERN-STACK folder
 
 2-)Run Backend
 Navigate to the backend folder and install dependencies:
